@@ -1,0 +1,28 @@
+@api = http://localhost:3000
+
+GET {{api}}/videos
+
+
+###
+GET {{api}}/videos/62b4fb078e674e7cedb8ca74
+
+### Create a video
+POST {{api}}/videos/
+Content-Type: application/json
+
+{
+    "url" : "https://www.google.com",
+    "title" : "asdasd",
+    "descripcion" : "asdasd"
+}
+
+###
+DELETE  {{api}}/videos/62b4fb078e674e7cedb8ca74
+
+###
+PUT {{api}}/videos/62b4fb078e674e7cedb8ca74
+Content-Type: application/json
+
+{
+    "title" : "Hola",
+}
