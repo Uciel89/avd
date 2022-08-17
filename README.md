@@ -1,2 +1,2 @@
-# AVP
-Asistente Virtual para Programadores
+# AVD
+Asistente Virtual para Desarrolladores
