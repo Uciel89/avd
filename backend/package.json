@@ -1,5 +1,5 @@
 {
-  "scrips": {
+  "scripts": {
     "dev": "nodemon src/index.js"
   },
   "dependencies": {

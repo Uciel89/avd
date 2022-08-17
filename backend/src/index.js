@@ -1,5 +1,7 @@
 const app = require('./app');
 
+require('./firebae')
+
 // Inicializamos el servidor 
-app.listen(4000);
-console.log('Serve is running on port 4000');
+app.listen(3000);
+console.log('Serve is running on port 3000');
