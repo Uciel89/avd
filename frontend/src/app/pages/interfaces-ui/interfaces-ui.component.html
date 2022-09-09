@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="container_form">
+        <div class="text_up-form">
+            <h2>AVD 👋</h2>
+        </div>
+        <form [formGroup]="interfacesForm" (ngSubmit)="onSubmit()" class="form_avd">
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="message" formControlName="message"
+                    required />
+                <label for="query" class="form__label">Consultar ❔</label>
+            </div>
+
+            <div class="form__group field" >
+                <textarea  type="input" class="form__textarea" readonly="readonly" placeholder="Respuesta"
+                    name="response" formControlName="response" required></textarea>
+                <label for="response" class="form__label__textarea">Respuesta 📃</label>
+            </div>
+            <button type="submit" class="form__button">Enviar</button>
+        </form>
+    </div>
+</div>

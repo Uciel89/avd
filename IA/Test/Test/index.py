@@ -6,11 +6,12 @@ import requests
 # from test_bloom import *
 # from test_gpt2 import *
 from test_openai import gpt3
+from flask_cors import CORS
 
 
 app = Flask(__name__)
 
-
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 @app.route("/1")
 def server_info():
