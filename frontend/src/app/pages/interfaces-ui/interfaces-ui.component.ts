@@ -20,7 +20,7 @@ export class InterfacesUiComponent implements OnInit {
     private iaService: IaService
     ) { 
       this.interfacesForm = this.formBuilder.group({
-        message: ['', [Validators.required]],
+        consulta: ['', [Validators.required]],
         response: ['']
       })
   }
@@ -44,7 +44,8 @@ export class InterfacesUiComponent implements OnInit {
       let respuestaFiltrada = JSON.parse(respuestaObtenida)
 
       this.respuesta = respuestaFiltrada.response
-      this.respuesta.replace(/\n/g, "");
+      console.log(this.respuesta)
+      // this.respuesta.replace(/\n/g, "");
       
       this.loadForm()
     })

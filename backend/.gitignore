@@ -1,4 +1,4 @@
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# Ignorar carpeta de vscode
+Lib
+
+.vscode
