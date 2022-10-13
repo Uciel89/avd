@@ -25,4 +25,6 @@ De base utilizamos 2 framework principalmente y un servicio externo:
 - Open AI `es un servicio externo de inteligencia artificial`
 
 ## Mensiones📖
-Este proyecto fue prensenta en la Expo Intercatedra del Instituto Zona Oeste
+Este proyecto fue prensentado en la Expo Intercatedra del Instituto Zona Oeste
+
+<a href="http://www.institutozonaoeste.edu.ar/" target="_blank"><img style="width: 50px" src="http://www.institutozonaoeste.edu.ar/wp-content/uploads/2016/09/cropped-logo-izo-izo-1.png"></a>
