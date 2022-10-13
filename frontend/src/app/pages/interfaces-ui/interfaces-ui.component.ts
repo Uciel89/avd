@@ -40,12 +40,11 @@ export class InterfacesUiComponent implements OnInit {
     
     this.iaService.sendMessage(message).subscribe( date => {
 
-      let respuestaObtenida = JSON.stringify(date)
+      /*let respuestaObtenida = JSON.stringify(date)
       let respuestaFiltrada = JSON.parse(respuestaObtenida)
 
-      this.respuesta = respuestaFiltrada.response
-      console.log(this.respuesta)
-      // this.respuesta.replace(/\n/g, "");
+      this.respuesta = respuestaFiltrada.response*/
+      this.respuesta = date.response
       
       this.loadForm()
     })

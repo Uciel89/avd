@@ -1,5 +1,4 @@
 .container{
-    background: radial-gradient(circle, rgba(0,138,255,1) 0%, rgba(0,138,255,1) 0%, rgba(0,0,0,1) 51%);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -17,11 +16,20 @@
         grid-template-rows: 5em 11em auto;
 
         .text_up-form{
+            display: flex;
             text-align: center;
+            flex-direction: row;
+            margin: auto;
             h2{
-                padding-top: 1.5em;
+                padding-top: 2em;
                 font-family: 'Roboto', sans-serif;
                 color: #fff;
+                
+            }
+            img{
+                padding: 1em;
+                width: 5em;
+                height: 6em;
             }
         }
 
@@ -152,4 +160,28 @@
             }
         }
     }
+
+    @media screen and (max-width: 700px) {
+        .container_form{
+            margin: 0;
+            height: 27em;
+            grid-template-rows: 7em 11em auto;
+        }
+
+    }
 }
+
+@media screen and (max-width: 700px){
+    .container{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .container{
+        padding-top: 3em;
+        padding-bottom: 5em;
+    }
+}
+
