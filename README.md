@@ -5,7 +5,7 @@
 
 Esté es una aplicación que en pocas palabras lo que trata de cubrir son varias necesidades que tienen los desarrolladores a la hora de ejercer su trabajo cotidiano en el desarrollo de algun sistema.
 
-> Aun esta en fase experimental, pueden probar un prototipo que hemos creado: https://avd-b3258.web.app/interfacesUi
+> Link del prototipo: https://avd-b3258.web.app/interfacesUi
 
 ## ¿ En que consiste esta app ? 🧐
 En futuro tenemos pensado incorporar 3 herramientas principalmente
