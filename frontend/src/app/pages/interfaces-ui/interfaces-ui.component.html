@@ -1,22 +1,45 @@
 <div class="container">
-    <div class="container_form">
-        <div class="text_up-form">
-            <img src="../../../assets/img/logo.png" alt="">
-            <h2>AVD</h2>
-        </div>
-        <form [formGroup]="interfacesForm" (ngSubmit)="onSubmit()" class="form_avd">
-            <div class="form__group field">
-                <input type="input" class="form__field" placeholder="..." name="consulta" formControlName="consulta"
-                    required />
-                <label for="query" class="form__label">Consulta ❔</label>
-            </div>
-
-            <div class="form__group field" >
-                <textarea  type="input" class="form__textarea" readonly="readonly" placeholder="Respuesta"
-                    name="response" formControlName="response" required></textarea>
-                <label for="response" class="form__label__textarea">Respuesta 📃</label>
-            </div>
-            <button type="submit" class="form__button">Enviar</button>
-        </form>
+  <div class="container_form">
+    <div class="text_up-form">
+      <img src="../../../assets/img/logo.png" alt="" />
+      <h2>AVD</h2>
     </div>
+    <form [formGroup]="interfacesForm" (ngSubmit)="onSubmit()" class="form_avd">
+      <div class="form__group field">
+        <input
+          type="input"
+          class="form__field"
+          placeholder="..."
+          name="consulta"
+          formControlName="consulta"
+          required
+        />
+        <label for="query" class="form__label">Consulta ❔</label>
+      </div>
+
+      <div class="form__group field">
+        <textarea
+          type="input"
+          class="form__textarea"
+          readonly="readonly"
+          placeholder="Respuesta"
+          name="response"
+          formControlName="response"
+          required
+        ></textarea>
+        <label for="response" class="form__label__textarea">Respuesta 📃</label>
+      </div>
+      <button type="submit" class="form__button">Enviar</button>
+      <div class="footer_container">
+        <footer>
+          <p class="subrayado">
+            <a href="https://github.com/Uciel89/AVD" target="_blank">
+                <span>Github</span>
+                <i class="bx bxl-github"></i>
+            </a>
+          </p>
+        </footer>
+      </div>
+    </form>
+  </div>
 </div>
